@@ -26,6 +26,15 @@ h1 {
     padding: 0px;
 }
 
+a {
+    color: #1d95f8;
+    transition: all 0.3s ease 0s;
+}
+
+a:hover {
+    color: #177cce;
+}
+
 ul {
     margin-left: 0px;
     padding-left: 0px;
