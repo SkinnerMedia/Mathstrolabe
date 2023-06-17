@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Berkshire+Swash&family=Lora&family=Tilt+Prism&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Lora, serif;
+    margin: 1em;
+}
+
+header {
+    margin-bottom: 3em;
+}
+
+footer {
+    text-align: right;
+    position: fixed;
+    bottom: 0px;
+    width: calc(100vw - 2em);
+    margin: 0.5em;
+}
+
+h1 {
+    font-family: "Aboreto", cursive;
+    color: #1d95f8;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    margin-left: 0px;
+    padding-left: 0px;
+    list-style: none;
+}
+
+ul.secondlevel {
+    font-size: 0.85em;
+}
+
+li {
+    padding-left: 1em;
+    text-indent: -1em;
+    margin-bottom: 1em;
+}
+
+ul.secondlevel li {
+    margin-bottom: 0px;
+}
+
+ul.toplevel li::before {
+    content: "🠦";
+    padding-right: 5px;
+}
+
+ul.secondlevel li::before {
+    content: "⮡";
+    padding-right: 5px;
+}
+
+.title {
+    font-family: "Tilt Prism", cursive;
+    font-size: 5em;
+    font-weight: 400;
+    color: #1d95f8;
+    margin: 0px;
+    padding: 0px;
+}
+
+.subtitle {
+    font-family: "Berkshire Swash", cursive;
+    font-weight: 200;
+    margin: 0px;
+    padding: 0px;
+}
+
+.contents {
+    font-size: 1.5em;
+}
