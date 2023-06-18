@@ -7,10 +7,6 @@ body {
     margin: 1em;
 }
 
-header {
-    margin-bottom: 3em;
-}
-
 footer {
     text-align: right;
     position: fixed;
@@ -75,6 +71,20 @@ ul.toplevel li::before {
 ul.secondlevel li::before {
     content: "⮡";
     padding-right: 5px;
+}
+
+nav.topnav ul.contents {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+nav.topnav li {
+    margin-top: 0;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
 }
 
 table {
