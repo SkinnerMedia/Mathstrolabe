@@ -93,12 +93,12 @@ table {
 
 table tr,
 table td {
-    padding-left: 1em;
     padding-right: 1em;
     padding-bottom: 0.5em;
 }
 
-table th:first-of-type {
+table th {
+    width: 30vw;
     text-align: left;
 }
 
