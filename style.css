@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Berkshire+Swash&family=Lora&family=Tilt+Prism&display=swap');
 
+@font-face {
+    font-family: 'Material Symbols Sharp';
+    src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v116/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReYU3rHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-HxOezEL3sVTgJtfbYxOLojCL.woff2) format('woff2');
+}
+
 body {
     background-color: black;
     color: white;
     font-family: Lora, serif;
     margin: 1em;
+    margin-bottom: 2em;
 }
 
 footer {
@@ -12,7 +18,8 @@ footer {
     position: fixed;
     bottom: 0px;
     width: calc(100vw - 3em);
-    margin: 0.5em;
+    padding: 0.5em;
+    background-color: black;
 }
 
 h1,
@@ -32,6 +39,20 @@ th {
     color: white;
     margin: 0px;
     padding: 0px;
+}
+
+.material-symbols-sharp {
+    font-family: 'Material Symbols Sharp';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 0.8em;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
 }
 
 a {
@@ -95,6 +116,7 @@ table tr,
 table td {
     padding-right: 1em;
     padding-bottom: 0.5em;
+    vertical-align: top;
 }
 
 table th {
