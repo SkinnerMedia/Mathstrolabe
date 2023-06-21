@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    <link rel="manifest" href="../site.webmanifest">
+    <title>Contact Us | Mathematics ☞ NeoSki</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="title">
+            Mathematics
+        </h1>
+        <h2 class="subtitle">
+            The study of logic, reasoning and deduction.
+        </h2>
+        <p>
+            Welcome to the home of the Mathematics branch of <a href="https://neoski.tk">NeoSki</a>.
+        </p>
+        <nav class="topnav">
+            <ul class="contents">
+                <li>
+                    <a href="../">Home</a>
+                </li>
+
+                <li>
+                    <a href="../q-spec">Topic Specific Question Packs</a>
+                </li>
+                <li>
+                    <a href="../q-mix">Mixed Topic Question Packs</a>
+                </li>
+                <li>
+                    <a href="../p-past">Past Papers</a>
+                </li>
+                <li>
+                    <a href="../p-custom">Custom Papers</a>
+                </li>
+                <li>
+                    <a href="../a-revision">Revision Advice</a>
+                </li>
+                <li>
+                    <a href="../a-prep">Exam Preparation</a>
+                </li>
+                <li>
+                    <a href="../a-donts">What Not to Do...</a>
+                </li>
+                <li>
+                    <a href="../r-websites">Good Websites</a>
+                </li>
+                <li>
+                    <a href="../r-ideas">Key Ideas and Topics</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <h1>
+            Contact Us
+        </h1>
+        <p>
+            To get in touch with the team, just fill out the form below and we&apos;ll get back to you as soon as possible.
+        </p>
+        <br>
+        <h2>
+            General Enquiries Form
+        </h2>
+        <br>
+        <div class="form">
+            <form data-netlify="true" method="POST" enctype="multipart/form-data" data-netlify-recaptcha="true" netlify-honeypot="bot-field" name="Contact General Enquiries" action="success/">
+                <div class="input-group hidden" hidden>
+                    <label>Don&apos;t fill this out if you&apos;re human:
+                        <input name="bot-field" />
+                    </label>
+                </div>
+                <div class="input-group">
+                    <label>
+                        <h3>Name</h3>
+                        <input type="text" name="Name" required />
+                    </label>
+                </div>
+                <div class="input-group">
+                    <label>
+                        <h3>Email</h3>
+                        <input type="email" name="Email" required />
+                    </label>
+                </div>
+                <div class="input-group">
+                    <label>
+                        <h3>Subject</h3>
+                        <input type="text" name="Subject" required />
+                    </label>
+                </div>
+                <div class="input-group">
+                    <label>
+                        <h3>Message</h3>
+                        <textarea name="Body" rows="15"></textarea>
+                    </label>
+                </div>
+                <div class="input-group" data-netlify-recaptcha="true" g-recaptcha="light" id="recaptcha"></div>
+                <button id="form-submit" type="submit" name="Submit" onclick="form_submit()">
+                    <h3>Submit</h3>
+                </button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <hr>
+        <nav class="bottomnav">
+            <small>
+                <a href="../contact">Contact Us</a>
+            </small>
+            <small>
+                Copyright © <a href="https://neoski.tk">Neo Skinner</a> 2023, All Rights Reserved. A <a href="https://neoski.tk">NeoSki</a> and <a href="https://skinnerscience.neoski.tk">SkinnerScience</a> Joint Venture.
+            </small>
+        </nav>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const recaptcha = document.querySelector('.g-recaptcha');
+            if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                recaptcha.setAttribute("data-theme", "dark");
+            }
+        });
+    </script>
+
+</body>
+
+</html>
