@@ -38,11 +38,26 @@ h3,
 h4,
 h5,
 h6,
-th {
+th,
+summary {
     font-family: "Aboreto", cursive;
     color: white;
     margin: 0px;
     padding: 0px;
+}
+
+summary {
+    cursor: pointer;
+    color: yellow;
+}
+
+details {
+    color: yellow;
+}
+
+article {
+    padding-left: 1em;
+    border-left: 1px solid yellow;
 }
 
 .material-symbols-sharp {
