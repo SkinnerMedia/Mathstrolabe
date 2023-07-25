@@ -33,7 +33,7 @@ footer img {
 h1,
 h2 {
     font-family: "Aboreto", cursive;
-    color: #1d95f8;
+    color: #8c00ff;
     margin: 0px;
     padding: 0px;
 }
@@ -79,12 +79,12 @@ article {
 }
 
 a {
-    color: #1d95f8;
+    color: #FFFFFF;
     transition: all 0.3s ease 0s;
 }
 
 a:hover {
-    color: #177cce;
+    color: #acacac;
 }
 
 ul {
@@ -156,7 +156,7 @@ table th {
     font-family: "Tilt Prism", cursive;
     font-size: 5em;
     font-weight: 400;
-    color: #1d95f8;
+    color: #8c00ff;
     margin: 0px;
     padding: 0px;
     line-height: 0.8;
@@ -207,7 +207,7 @@ button {
 }
 
 button h3 {
-    color: #1d95f8;
+    color: #FFFFFF;
     text-decoration: underline;
 }
 
